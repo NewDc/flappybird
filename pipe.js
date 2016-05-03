@@ -19,7 +19,7 @@ define(function (require,exports,module){
 	Pipe.prototype.draw=function(){
 		context.drawImage(this.img2,this.x,this.y-420);
 		context.drawImage(this.img1,this.x,this.y+150);
-		context.rect(this.x-7,this.y-410,60,420);
+		context.rect(this.x-7,this.y-414,60,420);
 		context.rect(this.x-7,this.y+140,60,420);
 	}
 	module.exports=Pipe;
