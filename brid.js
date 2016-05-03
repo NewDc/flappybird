@@ -22,9 +22,9 @@ define(function(require,exports,module){
 		this.speed=this.speed+this.a*dt;
 		this.y=this.y+this.speed*dt;
 			
-			if(Date.now()-lastTime>4500){
+			if(Date.now()-lastTime>4300){
 				this.distence=this.distence+0.1*dt;
-				if(this.distence>=200){
+				if(this.distence>=210){
 				this.count=this.count+1;
 				this.distence=0;
 				}
