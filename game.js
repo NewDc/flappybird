@@ -1,5 +1,5 @@
 define(function (require,exports,module){
-	alert('点击鼠标左键或按上方向键让小鸟飞翔！');
+//	alert('点击鼠标左键或按上方向键让小鸟飞翔！');
 	var Sky = require('./sky.js');
   	var Brid = require('./brid.js');
   	var Land = require('./land.js');
